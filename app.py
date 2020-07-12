@@ -39,7 +39,9 @@ def main():
     print(
         "Time comparison of algorithms that calculate the sum of integers in the interval [a, b]."
     )
-    print('----------------------------------------------------------')
+    print(
+        '----------------------------------------------------------------------------------------'
+    )
     first_num = 100
     last_num = int(1e6)
     big_list = list(range(first_num, last_num + 1))
@@ -47,7 +49,9 @@ def main():
         f'Ordenered list: [{first_num}, {first_num + 1}, ..., {last_num - 1}, {last_num}]'
     )
     print(f'size of list is {len(big_list)}')
-    print('----------------------------------------------------------')
+    print(
+        '----------------------------------------------------------------------------------------'
+    )
     total1, lapsed_time1 = iterative_sum(big_list)
     total2, lapsed_time2 = standart_sum(big_list)
     total3, lapsed_time3 = gauss_sum(big_list)
