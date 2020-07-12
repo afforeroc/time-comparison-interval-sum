@@ -1,4 +1,4 @@
-# Algorithm comparison: sum of all integers of [a, b] interval
+# Algorithm comparison: sum all integers of an interval
 
 ## System requeriments (recommended)
 * Ubuntu 20.04 LTS
