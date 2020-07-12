@@ -37,13 +37,13 @@ def gauss_sum(num_list):
 def main():
     """Compare three different algorithms that sum all integers of an interval."""
     print('Time complexity: Sum all integers of an interval [a,b]')
-    print('-------------------------------------------------------')
+    print('------------------------------------------------------')
     f_num = 100
     l_num = int(1e6)
     big_list = list(range(f_num, l_num + 1))
     print(f'List: [{f_num}, {f_num + 1}, ..., {l_num - 1}, {l_num}]')
     print(f'Size of list: {len(big_list)}')
-    print('-------------------------------------------------------')
+    print('------------------------------------------------------')
     total1, lapsed_time1 = iterative_sum(big_list)
     total2, lapsed_time2 = standart_sum(big_list)
     total3, lapsed_time3 = gauss_sum(big_list)

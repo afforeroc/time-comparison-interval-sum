@@ -21,15 +21,15 @@ $ python3 app.py
 ## 2. Output
 e.g.
 ```
-Time comparison of algorithms that calculate the sum of integers in the interval [a, b].
-----------------------------------------------------------------------------------------
-Ordenered list: [100, 101, ..., 999999, 1000000]
-size of list is 999901
-----------------------------------------------------------------------------------------
+Time complexity: Sum all integers of an interval [a,b]
+------------------------------------------------------
+List: [100, 101, ..., 999999, 1000000]
+Size of list: 999901
+------------------------------------------------------
 Algorithm       Sum             Lapsed time
-Iterative sum   500000495050    0.0463950634s
-Standart sum    500000495050    0.0065970421s
-Gauss sum       500000495050    0.0000035763s
+Iterative       500000495050    0.0488376617s
+Standart        500000495050    0.0066881180s
+Gauss           500000495050    0.0000035763s
 ```
 
 # Reference Links
