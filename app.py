@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""Time comparison of algorithms that calculate the sum of integers in the interval [a, b]."""
+"""Time complexity: Sum all integers of an interval [a,b]."""
 
 import time
 
@@ -35,23 +35,15 @@ def gauss_sum(num_list):
 
 
 def main():
-    """Time comparison of algorithms that calculate the sum of integers in the interval [a, b]."""
-    print(
-        "Time comparison of algorithms that calculate the sum of integers in the interval [a, b]."
-    )
-    print(
-        '----------------------------------------------------------------------------------------'
-    )
-    first_num = 100
-    last_num = int(1e6)
-    big_list = list(range(first_num, last_num + 1))
-    print(
-        f'Ordenered list: [{first_num}, {first_num + 1}, ..., {last_num - 1}, {last_num}]'
-    )
-    print(f'size of list is {len(big_list)}')
-    print(
-        '----------------------------------------------------------------------------------------'
-    )
+    """Compare three different algorithms that sum all integers of an interval."""
+    print('Time complexity: Sum all integers of an interval [a,b]')
+    print('-------------------------------------------------------')
+    f_num = 100
+    l_num = int(1e6)
+    big_list = list(range(f_num, l_num + 1))
+    print(f'List: [{f_num}, {f_num + 1}, ..., {l_num - 1}, {l_num}]')
+    print(f'Size of list: {len(big_list)}')
+    print('-------------------------------------------------------')
     total1, lapsed_time1 = iterative_sum(big_list)
     total2, lapsed_time2 = standart_sum(big_list)
     total3, lapsed_time3 = gauss_sum(big_list)
@@ -59,9 +51,9 @@ def main():
     lap_time_format2 = "{:.10f}".format(lapsed_time2)
     lap_time_format3 = "{:.10f}".format(lapsed_time3)
     print('Algorithm\tSum\t\tLapsed time')
-    print(f'Iterative sum\t{total1}\t{lap_time_format1}s')
-    print(f'Standart sum\t{total2}\t{lap_time_format2}s')
-    print(f'Gauss sum\t{total3}\t{lap_time_format3}s')
+    print(f'Iterative\t{total1}\t{lap_time_format1}s')
+    print(f'Standart\t{total2}\t{lap_time_format2}s')
+    print(f'Gauss\t\t{total3}\t{lap_time_format3}s')
 
 
 if __name__ == '__main__':

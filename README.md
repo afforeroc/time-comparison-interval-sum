@@ -1,11 +1,11 @@
-# Algorithm comparison: sum all integers of an interval
+# Time complexity: Sum all integers of an interval
 
 ## System requeriments (recommended)
 * Ubuntu 20.04 LTS
 
 ## 1. Configure and run the app
 
-1.1 Install the stable/latest version of Python 3 and verify their version.
+1.1 Install the latest version of Python 3 and verify their version.
 ```
 $ sudo apt install python3
 ```
@@ -19,7 +19,7 @@ $ python3 app.py
 ```
 
 ## 2. Output
-> e.g.
+e.g.
 ```
 Time comparison of algorithms that calculate the sum of integers in the interval [a, b].
 ----------------------------------------------------------------------------------------
@@ -33,4 +33,5 @@ Gauss sum       500000495050    0.0000035763s
 ```
 
 # Reference Links
-[StackExchange Math - Get the sum of numbers from 75 to 995 with interval of 5](https://math.stackexchange.com/questions/1692833/get-the-sum-of-numbers-from-75-to-995-with-interval-of-5)
+* [Time Complexity](https://en.wikipedia.org/wiki/Time_complexity)
+* [StackExchange Math - Get the sum of numbers from 75 to 995 with interval of 5](https://math.stackexchange.com/questions/1692833/get-the-sum-of-numbers-from-75-to-995-with-interval-of-5)
